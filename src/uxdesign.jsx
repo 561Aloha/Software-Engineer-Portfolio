@@ -210,7 +210,8 @@ const UXDesign = () => {
             </div>
           </div>
           <div className="impact-container">
-            <img src={star} />
+            <img src="/assets/alarm.svg" alt="Alarm Icon" />
+
             <div className="text-content">
               <h2>Key Learnings</h2>
               <p>I learned a lot about designing with Figma, and experiencing the 5 stages design thinking.</p>
