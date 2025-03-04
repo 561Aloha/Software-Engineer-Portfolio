@@ -1,5 +1,5 @@
 import React from "react";
-import "./Contact.css";
+import "./contact.css";
 import github from './assets/github-b.png';
 import instagram from './assets/instagram-b.png';
 import linkedin from './assets/linkedin-b.png';
