@@ -1,20 +1,18 @@
 import React, { useState, useRef } from 'react';
-
 import './uxdesign.css';
+import frame1 from './assets/frames/frame1.png';
+import frame2 from './assets/frames/frame2.png';
+import frame3 from './assets/frames/frame3.png';
+import frame5 from './assets/frames/frame5.png';
+import frame6 from './assets/frames/frame6.png';
+import frame7 from './assets/frames/frame7.png';
+import frame8 from './assets/frames/frame8.png';
+import frame9 from './assets/frames/frame9.png';
+import frame10 from './assets/frames/frame10.png';
 
 const Carousel = () => {
-    const images = [
-        "/assets/frames/frame1.png",
-        "/assets/frames/frame2.png",
-        "/assets/frames/frame3.png",
-        "/assets/frames/frame5.png",
-        "/assets/frames/frame6.png",
-        "/assets/frames/frame7.png",
-        "/assets/frames/frame8.png",
-        "/assets/frames/frame9.png",
-        "/assets/frames/frame10.png",
-    ];
-    
+
+    const images = [frame1, frame2, frame3, frame5, frame6, frame7, frame8, frame9, frame10];
 
     const [currentIndex, setCurrentIndex] = useState(0);
     const carouselRef = useRef(null);
