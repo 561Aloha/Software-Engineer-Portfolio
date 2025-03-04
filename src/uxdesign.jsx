@@ -216,7 +216,7 @@ const UXDesign = () => {
             </div>
           </div>
           <div className="impact-container">
-          <img src="/assets/alarm.svg" alt="Alarm Icon" />
+          <img src="/assets/clock.png" alt="Alarm Icon" />
             <div className="text-content">
               <h2>What I would do if I had more time:</h2>
               <p>For users like Alex, I would want to build more functionalities that would make it easier for him. One example of this, is a feature to order ahead of time. To contribute to the users who are not familiar with using mobile ordering applications, I would also like to provide more animations and popups that help guide them through the mobile ordering proces</p>
