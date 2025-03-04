@@ -202,7 +202,7 @@ const UXDesign = () => {
         </div>
         <div className='review-container'>
           <div className="impact-container">
-            <img src={lightening} alt="Lightening" class="impact-image" />
+            <img src={smile} alt="Lightening" class="impact-image" />
             <div className="text-content">
               <h2>Impact</h2>
               <p>After showing the designs again to several new users among my previous ones. All of them were impressed with the mobile ordering app.</p>
