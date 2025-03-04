@@ -1,0 +1,153 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+  }
+  .icon-barr img {
+    filter: invert(100%);
+  }
+  
+  .contact-left{
+    background-color: black;
+    padding: 40px;
+    border: 2px white solid;
+    line-height: 1;
+  }
+  .contact-left h3{
+    color:white;
+    font-size: 25px;
+  }
+  .contact-right{
+    width: 30%;
+    padding: 40px;
+  }
+  /* Contact Form Container */
+  .contact-form {
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 4px;
+    padding: 20px;
+    width: 100%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Form Group */
+  .form-group {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  
+  /* Input Box */
+  .input-box {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 100%;
+    color:Black;
+  }
+  
+  .input-box label {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .input-box input,
+  .input-box textarea {
+    border: 1px solid #0015ff;
+    padding: 8px;
+    font-size: 16px;
+    width: 100%;
+    background-color: white;
+    width: 100%;
+    color:Black;
+    box-sizing: border-box;
+  }
+  
+  /* Adjust Textarea */
+  .input-box textarea {
+    resize: none;
+  }
+  
+  /* Submit Button */
+  .submit-btn {
+    background-color: #0015ff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 100%;
+    cursor: pointer;
+    margin-top: 10px;
+    text-transform: uppercase;
+  }
+  
+  .submit-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .group-together {
+    display: flex;
+    justify-content: center;  
+    align-items: center;      
+    padding: 40px 0;          
+    width: 100%;              
+    background-color: rgb(10, 9, 9);
+  }
+  
+  .contact-left, .contact-right {
+    padding: 40px;
+  } 
+  .contact-left{
+    width: 300px;
+    height: 275px;
+  }
+
+
+
+
+
+
+@media (max-width: 600px) {
+  .group-together {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    justify-content: center;  
+    width: 100%;  
+    padding: 20px 0; 
+    background-color: rgb(10, 9, 9); /* Sets the background color */
+    margin-top:20px;
+  }
+  
+  .contact-left, .contact-right {
+    width: 90%;  /* Sets the width of both containers to be 90% of their parent */
+    max-width: 400px;  /* Ensures that they do not stretch beyond 350px */
+    padding: 20px;  /* Adequate padding inside each container */
+    margin-bottom: 20px;  /* Space between the two containers */
+    box-sizing: border-box;  /* Includes padding and border in the element's total width and height */
+    border: 2px solid white;  /* Example border for visibility */
+    border-radius: 10px;  /* Adds rounded corners if preferred */
+  }
+  .contact-form{
+    width: 90%;
+
+  }
+  .contact-right{
+    padding: 0;
+  }
+
+}
+
+.icon-bar{
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+  
+}

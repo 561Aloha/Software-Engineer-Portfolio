@@ -1,0 +1,92 @@
+.experience-container {
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    color: #333;
+    text-align: left;
+  }
+  
+  .experience-item {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+
+  }
+  
+  .experience-item:hover {
+    transform: scale(1.02);
+  }
+  
+  .experience-summary {
+    padding: 15px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    flex-wrap: wrap;
+  }
+  
+  .job-com {
+    font-size: 18px;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .job-date {
+    font-size: 14px;
+    color: #888;
+  }
+  
+  .experience-details {
+    overflow: hidden;
+    background-color: #f7f7f7;
+    padding: 0 15px;
+  }
+  
+  .job-description {
+    margin: 15px 0;
+    font-size: 16px;
+    color: #444;
+  }
+  
+  .job-duties,
+  .job-badges {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .job-duties li,
+  .job-badges li {
+    font-size: 14px;
+    margin: 5px 0;
+    color: #666;
+  }
+  
+  .badge {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 5px 5px 0 0;
+    background-color: #e0e0e0;
+    border-radius: 15px;
+    font-size: 12px;
+    color: #333;
+  }
+  
+.experience-container{
+    width: 65%;
+    margin-top: 20px;
+    border-radius: 15px;
+
+}
